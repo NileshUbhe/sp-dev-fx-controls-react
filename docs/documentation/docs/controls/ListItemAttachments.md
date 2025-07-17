@@ -45,7 +45,7 @@ let listItemAttachmentsComponentReference = React.createRef<ListItemAttachments>
 ...
 <PrimaryButton text="Save to Item with id 1" onClick={()=>{
         //@ts-ignore
-        listItemAttachmentsComponentReference.current.uploadAttachments(1);
+        await listItemAttachmentsComponentReference.current.uploadAttachments(1);
       }} />
 ```
 
